@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DaftarMenu">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar Menu Makanan"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/nasiGoreng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nasi Goreng"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/hargaNasiGoreng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 12000"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"/>
+        <EditText
+            android:id="@+id/jumlahNasiGoreng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="jumlah"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:id="@+id/mieGoreng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mie Goreng "
+            android:textSize="20dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/hargaMieGoreng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 11000"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"/>
+        <EditText
+            android:id="@+id/jumlahMieGoreng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="jumlah"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:id="@+id/kwetiau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kwetiau       "
+            android:textSize="20dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/hargaKwetiau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 10000"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"/>
+        <EditText
+            android:id="@+id/jumlahKwetiau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="jumlah"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:id="@+id/ayamBakar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ayam Bakar"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/hargaAyamBakar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 15000"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"/>
+        <EditText
+            android:id="@+id/jumlahAyamBakar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="jumlah"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar Menu Minuman"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/esTeh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Es Teh          "
+            android:textSize="20dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/hargaEsTeh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 3000"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"/>
+        <EditText
+            android:id="@+id/jumlahEsTeh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="jumlah"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:id="@+id/kopiHangat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kopi Hangat"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/hargaKopiHangat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 5000"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"/>
+        <EditText
+            android:id="@+id/jumlahKopiHangat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="jumlah"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnPesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan Sekarang"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
